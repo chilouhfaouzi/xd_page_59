@@ -1,0 +1,371 @@
+/* --------------------------
+:: Template Name: Eventsia : Page 59
+:: Description: Page 59
+:: Created: 05/12/2020  MM/DD/YYYY
+-------------------------- */
+/* ----------------------
+[Table of contents]
+01.Base CSS
+02.inbox CSS
+
+ --------------------------*/
+/*  ----------- 01- Start Base CSS  ----------- */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --main-black-color: #222;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+
+/*  ----------- 01 -End Base CSS   -----------*/
+/*  ----------- 02 -Start page 59  CSS   -----------*/
+.inbox_send {
+  position: relative;
+  overflow: hidden;
+  /*--Start messages --*/
+  /*-- End messages --*/
+}
+
+.inbox_send .my_container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.inbox_send .Preloade header {
+  width: 100vw;
+  overflow: hidden;
+  height: 8vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  padding-top: 12px;
+  background: #000;
+  color: #fff;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.inbox_send .Preloade .backButton {
+  width: 8vw;
+  position: absolute;
+  left: 3vw;
+  max-width: 60px;
+}
+
+.inbox_send .search {
+  width: 8vw;
+  position: absolute;
+  right: 3vw;
+  max-width: 60px;
+}
+
+.inbox_send .backButton,
+.inbox_send .search {
+  top: 13px;
+}
+
+.inbox_send .Preloade .navbar {
+  width: 100vw;
+  height: 6vh;
+  background: white;
+  position: fixed;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid #eaeced;
+  padding: 4px 0;
+  text-align: center;
+}
+
+.inbox_send .Preloade3 .navbaeelement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.inbox_send .navbaeelement img {
+  width: 22px;
+}
+
+.inbox_send .row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.inbox_send .row > div {
+  padding: 0;
+}
+
+.inbox_send .storys {
+  text-align: center;
+  padding: 1vh 0;
+}
+
+.inbox_send .storys .scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.inbox_send .storys .one_story {
+  width: 20vw;
+  margin-left: 4vw;
+  display: inline-block;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.inbox_send .storys .one_story .img_profile {
+  position: relative;
+}
+
+.inbox_send .storys .one_story .img_profile img {
+  width: 85%;
+}
+
+.inbox_send .storys .one_story .img_profile .notify {
+  position: absolute;
+  top: 2px;
+  right: 1px;
+  background-color: #4c5fef;
+  padding: 1px 3px;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 0.7em;
+}
+
+.inbox_send .storys .one_story .name {
+  font-size: 0.7em;
+  margin-top: 6px;
+  margin-bottom: 1px;
+  font-weight: 500;
+}
+
+.inbox_send .storys .one_story .city {
+  font-size: 0.5em;
+  color: #333;
+}
+
+.inbox_send .list_messages .one_message {
+  padding: 2vh 4vw 2vh 0;
+  border-top: 1px solid #eee;
+}
+
+.inbox_send .list_messages .one_message .status {
+  position: relative;
+  text-align: center;
+}
+
+.inbox_send .list_messages .one_message .status span {
+  position: absolute;
+  top: 4px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.inbox_send .list_messages .one_message .status .online {
+  background-color: #0f0;
+}
+
+.inbox_send .list_messages .one_message .status .ofline {
+  background-color: gray;
+}
+
+.inbox_send .list_messages .one_message .status .nofline {
+  background-color: #4c5fef;
+}
+
+.inbox_send .list_messages .one_message .name {
+  font-size: 0.9em;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.inbox_send .list_messages .one_message .suabject {
+  color: #666;
+  font-size: 0.8em;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.inbox_send .list_messages .one_message .msg {
+  font-size: 0.7em;
+  color: #888;
+}
+
+.inbox_send .list_messages .one_message .time {
+  font-size: 0.75em;
+  color: #666;
+}
+
+.inbox_send .list_messages .one_message .img_msg {
+  width: 10vw;
+}
+
+.inbox_send .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+  background-color: #000;
+  z-index: 50;
+}
+
+.inbox_send .send_msg_content {
+  position: absolute;
+  bottom: 25vh;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 80;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.inbox_send .send_msg_content .img_back img {
+  height: 80vh;
+  width: 100vw;
+}
+
+.inbox_send .send_msg_content .content {
+  position: absolute;
+  left: 0;
+  z-index: 99;
+  top: 8vh;
+  width: 100%;
+  padding: 5px 5vw;
+}
+
+.inbox_send .send_msg_content .content .info_sender {
+  border-bottom: 1px solid rgba(136, 136, 136, 0.397);
+}
+
+.inbox_send .send_msg_content .content .info_sender .img_sender img {
+  width: 80%;
+}
+
+.inbox_send .send_msg_content .content .info_sender .name {
+  font-size: 1.15em;
+  color: #5882f2;
+  margin-bottom: 6px;
+  padding-top: 5px;
+}
+
+.inbox_send .send_msg_content .content .info_sender .email {
+  font-size: 0.85em;
+  color: #888;
+}
+
+.inbox_send .send_msg_content .content .info_sender .btn_send .btn {
+  font-size: 1em;
+  color: #fff;
+  background-color: #4c5fef;
+  border-radius: 25px;
+  padding: 6px 12px;
+}
+
+.inbox_send .send_msg_content .content .form {
+  padding: 15px 0;
+}
+
+.inbox_send .send_msg_content .content .form .icon_msg img {
+  width: 85%;
+}
+
+.inbox_send .send_msg_content .content .form textarea {
+  font-size: 1.1em;
+  border: none;
+}
+
+.inbox_send .send_msg_content .content .form .list_imges {
+  margin-top: 5vh;
+}
+
+.inbox_send .send_msg_content .content .form .list_imges .my_img {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.inbox_send .send_msg_content .content .form .list_imges .my_img img {
+  width: 46px;
+}
+
+.inbox_send .send_msg_content .content .form .list_icons {
+  margin-top: 5vh;
+}
+
+.inbox_send .send_msg_content .content .form .list_icons .my_icon {
+  display: inline-block;
+  margin-right: 5px;
+  background-color: #898692;
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+}
+
+.inbox_send .send_msg_content .content .form .list_icons .my_icon img {
+  width: 15px;
+}
+
+/*  ----------- 02 -End page  CSS   -----------*/
+/*# sourceMappingURL=main.css.map */
